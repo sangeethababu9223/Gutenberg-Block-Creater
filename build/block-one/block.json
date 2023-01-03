@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/block-one",
+  "version": "0.1.0",
+  "title": "Block One",
+  "category": "custom-modules",
+  "icon": "smiley",
+  "description": "Block One",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "gutenberg-block-creator",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
